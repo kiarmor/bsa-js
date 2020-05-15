@@ -1,3 +1,5 @@
+import { showWinnerDetailsModal } from './fighterDetails';
+
 export  function showWinnerModal(fighter) {
-  // show winner name and image
+    showWinnerDetailsModal(fighter);
 }
